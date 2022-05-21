@@ -7,7 +7,7 @@ Please refer to the 'Fall 2022 Data Science Intern Challenge Q1.ipynb' for detai
 **Code**:
 select count(OrderID) from Orders  
 join Shippers on Orders.ShipperID = Shippers.ShipperID   
-where Shippers.ShipperName = 'Speedy Express'
+where Shippers.ShipperName = 'Speedy Express'  
 **Result**: 54
 ## b.
 **Code**:
@@ -41,5 +41,5 @@ group by GermanyProduct.ProductID
 order by sum(Quantity) desc  
 limit 1  
 )  
-select ProductName from GProductQuantity
+select ProductName from GProductQuantity  
 **Result**: Gumbär Gummibärchen
